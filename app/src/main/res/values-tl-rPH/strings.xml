@@ -3,4 +3,8 @@
     <string name="app_name">AndroidLabs</string>
     <string name="hello_message">Kamusta!</string>
     <string name="ButtonText">Ako ay isang buton</string>
+    <string name="TextView">Mag Log In</string>
+    <string name="emailHint">Login Name</string>
+    <string name="Password">Password</string>
+    <string name="question">Ano ang ginagawa ito?</string>
 </resources>
