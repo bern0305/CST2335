@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_columnWeight="1"
         android:gravity="fill"
-        android:text="RadioButton" />
+        android:text="@string/radioButton2" />
 
     <CheckBox
         android:id="@+id/checkBox2"
@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_columnWeight="1"
         android:gravity="fill"
-        android:text="CheckBox" />
+        android:text="@string/checkbox2" />
 
     <Switch
         android:id="@+id/switch1"
