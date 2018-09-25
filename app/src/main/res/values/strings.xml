@@ -6,4 +6,8 @@
     <string name="emailHint">Login Name</string>
     <string name="Password">Password</string>
     <string name="question">What does this do?</string>
+    <string name="dialog_message">Do you want to end this activity?</string>
+    <string name="dialog_title">Action</string>
+    <string name="ok">Yes</string>
+    <string name="cancel">No</string>
 </resources>

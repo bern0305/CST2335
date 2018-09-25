@@ -7,4 +7,10 @@
     <string name="emailHint">Login Name</string>
     <string name="Password">Password</string>
     <string name="question">Ano ang ginagawa ito?</string>
+    <string name="dialog_message">Gusto mo bang tapusin ang aktibidad na ito?</string>
+    <string name="dialog_title">Aksyon</string>
+    <string name="ok">Oo</string>
+    <string name="cancel">Hindi</string>
+
+
 </resources>
