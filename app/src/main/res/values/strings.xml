@@ -10,4 +10,8 @@
     <string name="dialog_title">Action</string>
     <string name="ok">Yes</string>
     <string name="cancel">No</string>
+    <string name="radioButton2">RadioButton</string>
+    <string name="checkbox2">CheckBox</string>
+    <string name="ButtonChat">Start Chat</string>
+    <string name="send">Send</string>
 </resources>
