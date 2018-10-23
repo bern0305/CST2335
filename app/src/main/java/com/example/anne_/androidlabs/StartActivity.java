@@ -24,7 +24,16 @@ public class StartActivity extends Activity {
             }
         });
 
+        Button chatButton=findViewById(R.id.chatButton);
+        chatButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
 
+                Intent next=new Intent(StartActivity.this,ChatWindow.class);
+                startActivity(next);
+                Log.i(ACTIVITY_NAME, "User clicked Start Chat");
+            }
+        });
         Log.i(ACTIVITY_NAME,"In onCreate()");
         super.onResume();
         Log.i(ACTIVITY_NAME,"In onResume()");
@@ -40,14 +49,15 @@ public class StartActivity extends Activity {
     }
     @Override
     public void onActivityResult(int requestCode,int responseCode,Intent data){
-        if (requestCode==50){
-            Log.i(ACTIVITY_NAME,"Returned to StartActivity.onActivityResult");
-        }
-        else if (requestCode==Activity.RESULT_OK){
-            String messagePassed=data.getStringExtra("Response");
-            int duration=Toast.LENGTH_LONG;
-            Toast toast=Toast.makeText(this, messagePassed,duration);
-            toast.show();
+        if (requestCode==50) {
+            Log.i(ACTIVITY_NAME, "Returned to StartActivity.onActivityResult");
+
+            if (responseCode == Activity.RESULT_OK) {
+                String messagePassed = data.getStringExtra("Response");
+                int duration = Toast.LENGTH_LONG;
+                Toast toast = Toast.makeText(this, messagePassed, duration);
+                toast.show();
+            }
         }
     }
 }

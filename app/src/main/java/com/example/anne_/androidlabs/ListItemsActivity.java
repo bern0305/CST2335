@@ -89,6 +89,7 @@ public class ListItemsActivity extends Activity {
 
 
     }
+
     private void dispatchTakePictureIntent(){
         Intent takePicture=new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
         if (takePicture.resolveActivity(getPackageManager())!=null){
@@ -97,8 +98,8 @@ public class ListItemsActivity extends Activity {
     }
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data){
+        ImageButton image=findViewById(R.id.imageButton);
         if (requestCode==REQUEST_IMAGE_CAPTURE && resultCode==RESULT_OK){
-            ImageButton image=findViewById(R.id.imageButton);
             Bundle extras =data.getExtras();
             Bitmap imageBitMap=(Bitmap) extras.get("data");
             image.setImageBitmap(imageBitMap);
