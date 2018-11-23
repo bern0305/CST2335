@@ -15,4 +15,9 @@
     <string name="checkbox2">Kahon ng Tseke</string>
     <string name="ButtonChat">Simulan ang Chat</string>
     <string name="send">Magpadala</string>
+    <string name="weatherButton">Ulat Panahon</string>
+    <string name="current">Kasalukuyang Temperatura: %1$s</string>
+    <string name="minTemp">Pinakamababang Temperatura: %1$s</string>
+    <string name="maxTemp">Pinakamataas na Temperatura: %1$s</string>
+    <string name="windSpeed">Bilis ng Hangin: %1$s</string>
 </resources>

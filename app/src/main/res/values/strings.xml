@@ -14,4 +14,9 @@
     <string name="checkbox2">CheckBox</string>
     <string name="ButtonChat">Start Chat</string>
     <string name="send">Send</string>
+    <string name="weatherButton">Weather Forecast</string>
+    <string name="current">Current Temperature: %1$s</string>
+    <string name="minTemp">Minimum Temperature: %1$s</string>
+    <string name="maxTemp">Maximum Temperature: %1$s</string>
+    <string name="windSpeed">Wind Speed: %1$s</string>
 </resources>
