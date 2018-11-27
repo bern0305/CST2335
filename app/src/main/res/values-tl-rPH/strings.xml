@@ -8,7 +8,7 @@
     <string name="Password">Password</string>
     <string name="question">Ano ang ginagawa ito?</string>
     <string name="dialog_message">Gusto mo bang tapusin ang aktibidad na ito?</string>
-    <string name="dialog_title">Aksyon</string>
+    <string name="dialog_action">Aksyon</string>
     <string name="ok">Oo</string>
     <string name="cancel">Hindi</string>
     <string name="radioButton2">Pindutan ng Radyo</string>
@@ -20,4 +20,8 @@
     <string name="minTemp">Pinakamababang Temperatura: %1$s</string>
     <string name="maxTemp">Pinakamataas na Temperatura: %1$s</string>
     <string name="windSpeed">Bilis ng Hangin: %1$s</string>
+    <string name="dialog_title">Gusto mo bang bumalik?</string>
+    <string name="question2">Ano ang iyong bagong mensahe?</string>
+    <string name="hint">Magsulat Dito</string>
+    <string name="snackButton">Tungkol Sa</string>
 </resources>

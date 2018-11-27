@@ -7,7 +7,7 @@
     <string name="Password">Password</string>
     <string name="question">What does this do?</string>
     <string name="dialog_message">Do you want to end this activity?</string>
-    <string name="dialog_title">Action</string>
+    <string name="dialog_action">Action</string>
     <string name="ok">Yes</string>
     <string name="cancel">No</string>
     <string name="radioButton2">RadioButton</string>
@@ -19,4 +19,8 @@
     <string name="minTemp">Minimum Temperature: %1$s</string>
     <string name="maxTemp">Maximum Temperature: %1$s</string>
     <string name="windSpeed">Wind Speed: %1$s</string>
+    <string name="dialog_title">Do you want to go back?</string>
+    <string name="question2">What is your new message?</string>
+    <string name="hint">Type Here</string>
+    <string name="snackButton">About</string>
 </resources>

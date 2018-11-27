@@ -5,7 +5,6 @@ import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Bitmap;
-import android.media.Image;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.util.Log;
@@ -59,7 +58,7 @@ public class ListItemsActivity extends Activity {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 AlertDialog.Builder builder=new AlertDialog.Builder(ListItemsActivity.this);
-                builder.setMessage(R.string.dialog_message).setTitle(R.string.dialog_title)
+                builder.setMessage(R.string.dialog_message).setTitle(R.string.dialog_action)
                         .setPositiveButton(R.string.ok, new DialogInterface.OnClickListener(){
                             public void onClick(DialogInterface dialog,int id){
                                 Intent resultIntent= new Intent();

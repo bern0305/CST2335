@@ -43,6 +43,16 @@ public class StartActivity extends Activity {
                 Log.i(ACTIVITY_NAME, "User clicked Weather Forecast");
             }
         });
+
+        Button testToolBar=findViewById(R.id.testToolBarButton);
+        testToolBar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent next=new Intent(StartActivity.this,TestToolBar.class);
+                startActivity(next);
+                Log.i(ACTIVITY_NAME,"User clicked Test ToolBar");
+            }
+        });
         Log.i(ACTIVITY_NAME,"In onCreate()");
         super.onResume();
         Log.i(ACTIVITY_NAME,"In onResume()");
